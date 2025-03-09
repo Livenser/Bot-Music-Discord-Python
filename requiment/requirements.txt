@@ -1,0 +1,8 @@
+discord.py
+yt-dlp
+aiohttp
+pynacl
+ffmpeg
+random
+python-dotenv
+asyncpg
