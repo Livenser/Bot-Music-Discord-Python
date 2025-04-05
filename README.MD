@@ -1,47 +1,42 @@
-<!-- Setup Bot Discord - Gaya Santai Anak SMK -->
-<section style="font-family: 'Segoe UI', sans-serif; padding: 2rem; max-width: 800px; margin: auto; background: #fefefe; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); color: #2d2d2d;">
-  <h2 style="text-align: center; color: #007bff; margin-bottom: 1.2rem;">🛠️ Cara Nyalain Bot Discord Kamu</h2>
-  <p style="font-size: 1rem; text-align: center; margin-bottom: 2rem;">
-    Nih, gua kasih step-by-step buat nyalain bot Discord lo biar gak ribet. Simple kok, asal ikutin aja urutannya.
-  </p>
+<div style="font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 20px;">
+  <h2 style="text-align: center;">🚀 Cara Nyalain Bot Discord Lo</h2>
+  <p style="text-align: center;">Gue kasih langkah-langkahnya biar gak bingung. Simpel aja kok, asal ikutin urutannya yaa!</p>
 
-  <ol style="line-height: 1.9; padding-left: 1rem;">
+  <ol>
     <li>
       <strong>Install <code>ffmpeg</code></strong><br>
-      Jadi gini, ffmpeg itu penting banget buat jalanin fitur musik di bot lo. Lo tinggal download aja dari 
-      <a href="https://ffmpeg.org/download.html" target="_blank" style="color: #007bff;">sini</a>.  
-      Kalau udah di-install, jangan lupa masukin ke PATH juga ya, biar bisa dipanggil dari mana aja.
+      Pertama-tama, lo harus install ffmpeg dulu. Ini penting banget soalnya bot lo bakal butuh itu buat muter musik.  
+      Langsung aja download dari <a href="https://ffmpeg.org/download.html" target="_blank">sini</a>.  
+      Abis install, jangan lupa masukin ke PATH biar bisa dipanggil dari mana aja.
     </li>
-
+    <br>
     <li>
       <strong>Bikin API Key YouTube</strong><br>
-      Masuk ke Google Cloud Console, bikin project baru, terus aktifin "YouTube Data API v3". Abis itu lo bakal dapet API key.  
-      Simpen baik-baik ya, jangan asal share. API ini yang ngebantu bot buat ngakses data dari YouTube.
+      Lo buka Google Cloud Console, terus bikin project baru. Habis itu aktifin <em>YouTube Data API v3</em>, dan lo bakal dapet API Key.  
+      Simpen baik-baik ya, ini penting buat ambil data dari YouTube ke bot lo.
     </li>
-
+    <br>
     <li>
       <strong>Siapin Token Bot Discord</strong><br>
-      Masuk ke <a href="https://discord.com/developers/applications" target="_blank" style="color: #007bff;">Discord Developer Portal</a>, terus bikin aplikasi baru. Tambahin bot ke project-nya, terus lo bakal dapet token.  
-      Nah, token ini semacam password buat bot lo, jadi jangan bocorin ke orang lain.
+      Masuk ke <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a>, terus buat aplikasi baru.  
+      Di situ lo tambahin bot dan copy tokennya. Ingat, token ini rahasia, jangan sembarangan share ke orang!
     </li>
-
+    <br>
     <li>
-      <strong>Masukin API Key dan Token ke File <code>.env</code></strong><br>
-      Bikin file baru namanya <code>.env</code>, isinya kira-kira gini:
-      <pre style="background: #f0f0f0; padding: 1rem; border-radius: 8px;"><code>YOUTUBE_API_KEY=masukin_api_key_lo_disini
-DISCORD_BOT_TOKEN=masukin_token_disini</code></pre>
-      File ini harus ada di folder utama tempat lo naro <code>main.py</code>. Ini biar bot bisa baca data penting itu.
+      <strong>Masukin API Key & Token ke File <code>.env</code></strong><br>
+      Bikin file baru namanya <code>.env</code>, terus masukin ini ke dalamnya:
+      <pre><code>YOUTUBE_API_KEY=isi_api_key_lo_disini
+DISCORD_BOT_TOKEN=isi_token_bot_lo_disini</code></pre>
+      Pastikan file <code>.env</code> ini ada di direktori yang sama dengan file <code>main.py</code> lo.
     </li>
-
+    <br>
     <li>
       <strong>Jalankan Bot-nya</strong><br>
-      Tinggal buka terminal atau CMD, terus ketik:
-      <pre style="background: #f0f0f0; padding: 1rem; border-radius: 8px;"><code>python main.py</code></pre>
-      Kalau semua udah beres, bot lo langsung nyala. Gampang kan?
+      Terakhir tinggal buka terminal, masuk ke folder project lo, terus ketik:
+      <pre><code>python main.py</code></pre>
+      Kalo gak ada error, berarti bot lo udah jalan. Gampang kan?
     </li>
   </ol>
 
-  <p style="text-align: center; margin-top: 2rem; font-style: italic; color: #555;">
-    Udah deh, tinggal dicoba! Kalo ada yang error, cek lagi langkah-langkahnya. 
-  </p>
-</section>
+  <p style="text-align: center; font-style: italic;">Udah kelar deh! Kalo ada yang error, tinggal dicek ulang aja.</p>
+</div>
