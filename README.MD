@@ -42,6 +42,6 @@ DISCORD_BOT_TOKEN=masukin_token_disini</code></pre>
   </ol>
 
   <p style="text-align: center; margin-top: 2rem; font-style: italic; color: #555;">
-    Udah deh, tinggal dicoba! Kalo ada yang error, cek lagi langkah-langkahnya. Semangat ngoding, bro! 💪✨
+    Udah deh, tinggal dicoba! Kalo ada yang error, cek lagi langkah-langkahnya. 
   </p>
 </section>
